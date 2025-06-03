@@ -1,0 +1,43 @@
+{
+  "name": "repo-indexer-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for indexing and searching entire repositories for AI assistants",
+  "main": "build/index.js",
+  "bin": {
+    "repo-indexer-mcp": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "dev": "tsc -w",
+    "start": "node build/index.js",
+    "test": "node test-server.js"
+  },
+  "keywords": [
+    "mcp",
+    "repository",
+    "indexing",
+    "ai",
+    "copilot",
+    "cursor",
+    "search"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/micromatch": "^4.0.9",
+    "@types/node": "^22.15.29",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "chokidar": "^4.0.3",
+    "fast-glob": "^3.3.3",
+    "fs-extra": "^11.3.0",
+    "ignore": "^7.0.5",
+    "micromatch": "^4.0.8",
+    "node-gitignore": "^1.0.7",
+    "path": "^0.12.7",
+    "zod": "^3.25.49"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "servers": {
+        "repo-indexer-mcp": {
+            "type": "stdio",
+            "command": "node",
+            "args": [
+                "/Users/ankit/Desktop/pupeteer/build/index.js"
+            ]
+        }
+    }
+}
