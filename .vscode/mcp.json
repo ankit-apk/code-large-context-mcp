@@ -6,6 +6,13 @@
             "args": [
                 "/Users/ankit/Desktop/pupeteer/build/index.js"
             ]
+        },
+        "code-large-context": {
+            "type": "stdio",
+            "command": "node",
+            "args": [
+                "/Users/ankit/Desktop/code-large-context-mcp/build/index.js"
+            ]
         }
     }
 }
